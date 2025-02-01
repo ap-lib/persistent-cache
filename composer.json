@@ -1,0 +1,19 @@
+{
+  "name": "ap-lib/persistent-cache",
+  "type": "library",
+  "homepage": "https://github.com/ap-lib/persistent-cache",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton Panfilov"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AP\\Cache\\Persistent\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.3"
+  }
+}
