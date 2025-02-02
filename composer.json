@@ -1,5 +1,6 @@
 {
   "name": "ap-lib/persistent-cache",
+  "description": "Caching of an unchanging array is typically prepared on one computer and used on another",
   "type": "library",
   "homepage": "https://github.com/ap-lib/persistent-cache",
   "license": "MIT",
@@ -13,7 +14,16 @@
       "AP\\Cache\\Persistent\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "AP\\Cache\\Persistent\\Tests\\": "tests/"
+    }
+  },
   "require": {
-    "php": "^8.3"
+    "php": "^8.3",
+    "ap-lib/normalizer": "1.*.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10.5.*"
   }
 }
